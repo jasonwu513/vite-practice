@@ -12,6 +12,7 @@
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
+    "@iconify/json": "^1.1.448",
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
@@ -21,6 +22,8 @@
     "postcss": "^8.4.5",
     "postcss-import": "^14.0.2",
     "tailwindcss": "^3.0.7",
+    "unplugin-icons": "^0.13.0",
+    "unplugin-vue-components": "^0.17.11",
     "vite": "^2.7.2",
     "vite-plugin-pages": "^0.19.7"
   }
