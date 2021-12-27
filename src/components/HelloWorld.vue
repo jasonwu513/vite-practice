@@ -23,7 +23,7 @@ const count = ref(0)
       Vite Documentation
     </a>
     |
-    <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
+    <a class="link" href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
   </p>
 
   <button type="button" @click="count++">count is: {{ count }}</button>
@@ -31,10 +31,16 @@ const count = ref(0)
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
+
+  <div class="card">
+    <a class="link" href="">nested css</a>
+  </div>
 </template>
 
 <style scoped>
-a {
-  color: #42b983;
-}
+
 </style>
+
+<script>
+  console.log('dfdsf')
+</script>
